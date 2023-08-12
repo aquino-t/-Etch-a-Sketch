@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+ html, 
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#container {
+    margin: auto;    
+    background-color: rgb(252, 255, 255);
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
+    box-shadow: 0 0 10px rgba(58, 63, 65, 0.144);
+}  
+    
+    
+   
+    
+.apply-changes {
+    border: none;
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(225, 248, 248);
+    box-shadow: 0 0 2px rgba(58, 63, 65, 0.144);
+}
